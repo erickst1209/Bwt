@@ -1,0 +1,137 @@
+:root{
+    --bg-color: rgb(19, 18, 18);
+    --txt-color:rgb(241, 235, 225);
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: max-content;
+}
+/* HEADER */
+.header{
+    width:100%;
+    position: fixed;
+    padding: 20px;
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    align-items: center;
+    display: flex;
+}
+.menu{
+    border: none;
+    background-color:var(--bg-color) ;
+    color: var(--txt-color);
+    cursor: pointer;
+}
+.div__logo{
+    width: 100px;
+    height: 100px;
+}
+.imgen__logo{
+    width: 100px ;
+    height: 100px;
+}
+/* MAIN */
+.main{
+    display:flex;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+ }
+ .izq{
+    width: 25%;
+    height: 100%;
+    display: grid;
+    margin-top: 58px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+    color: antiquewhite;
+    font-family: serif;
+ }
+ .der{
+    width: 75%;
+    display: flex;
+    max-width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .div{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+ }
+ .div__perfil{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+ }
+ .foto{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    padding: 6px;
+ }
+ .foto:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.6s ease-out;
+    filter: grayscale(0.9);
+ }
+.imagen__perfil{
+    width: 50%;
+    padding: 0;
+    border: 1px solid white;
+    border-radius: 80px;
+    box-shadow: 0px 0px 8px -1px white;
+}
+.div__info{
+    width: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.div__redes{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+   
+}
+.titulo__perfil,.parrafo{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.icon-img{
+    width:30px;
+}
+.tik{
+    margin: 2px;
+    padding-right: 21px;
+}
+.red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:var(--txt-color);
+}
+
